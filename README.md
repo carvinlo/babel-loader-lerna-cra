@@ -6,6 +6,7 @@ This package overrides the Webpack configuration of Create-React-App projects in
 
 ## ⚠️ Please Note
 
+Support react-scripts@2.1.1
 As with packages like [React-App-Rewired]...
 
 Using `babel-loader-lerna-cra` breaks the "guarantees" that Create React App provides. That is to say, you now "own" the configs. No support will be provided. Proceed with caution.
