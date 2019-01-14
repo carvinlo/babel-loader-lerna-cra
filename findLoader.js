@@ -11,7 +11,7 @@ module.exports = (webpackConfig, reactAppSrcDir) => {
                 return false;
             }
 
-            if (!loader.test.toString().includes('(js|mjs|jsx)')) {
+            if (!loader.test.toString().includes('(js|mjs|jsx')) {
                 return false;
             }
 
@@ -19,7 +19,7 @@ module.exports = (webpackConfig, reactAppSrcDir) => {
                 return false;
             }
 
-            if (!loader.loader.includes('node_modules/babel-loader')) {
+            if (!loader.loader.includes('babel-loader')) {
                 return false;
             }
 
